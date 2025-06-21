@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Conversor de Unidades Inteligente</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1>Conversor de Unidades Inteligente</h1>
+        <p>Convierte longitud, peso, volumen, temperatura, energía y más</p>
+    </header>
+
+    <div class="container">
+        <label for="unidad">Selecciona tipo de unidad:</label>
+        <select id="unidad" onchange="cambiarUnidad()">
+            <option value="longitud">Longitud</option>
+            <option value="peso">Peso</option>
+            <option value="volumen">Volumen</option>
+            <option value="temperatura">Temperatura</option>
+            <option value="energia">Energía</option>
+            <option value="tiempo">Tiempo</option>
+        </select>
+
+        <div id="formulario"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
