@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://convertirunidades.netlify.app/sitemap.xml
